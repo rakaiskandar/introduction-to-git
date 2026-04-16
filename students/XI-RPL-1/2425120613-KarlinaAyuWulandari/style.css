@@ -1,0 +1,61 @@
+body{
+    margin: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 3px;
+    word-spacing: 8px;
+    font-size: 20px;
+    background-color: #ffefdd;
+    background-image: linear-gradient(rgb(40, 75, 104), rgb(28, 133, 124));
+}
+
+.nav li a:hover{
+    background-color: #FFDBB5;
+    color: #603F26;
+}
+
+.header{
+    background-size: cover;
+    background-position: center;
+    color: #FFFFFF;
+    padding: 100px;
+    text-shadow: 5px 5px 20px rgba(255, 255, 255, 0.808);
+    text-align: center;
+}
+
+.header h1{
+    font-family: 'ophelia', sans-serif ;
+}
+
+.header p{
+    text-align: center;
+}
+
+.foto{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    background-color: #ffdbb5e8;
+    object-fit: cover;
+}
+
+.biodata{
+    background-color: #ffffff;
+    width: auto;
+    height: auto;
+    text-align: left;
+    border: 1px solid #2c2660;
+    border-radius: 10px;
+    padding: 50px;
+    margin: 10px;
+}
+
+
+@font-face {
+    font-family: 'ophelia';
+    src: url(Fonts/serif/ophelia_2/OPHELIA.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'montserrat';
+    src: url(Fonts/serif/Montserrat/Montserrat-VariableFont_wght.ttf) format('truetype');
+}
