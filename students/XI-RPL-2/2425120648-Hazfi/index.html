@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Biodata - Hazfi Febrianto</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+  <div class="bg-grid"></div>
+  <div class="blob blob-1"></div>
+  <div class="blob blob-2"></div>
+
+  <main class="card">
+    <div class="accent-bar"></div>
+
+    <header class="profile-header">
+      <!-- Ganti "foto.jpg" dengan nama file foto kamu, taruh di folder yang sama -->
+      <div class="avatar-wrapper">
+        <img class="avatar-photo" src="hazfi.jpeg" alt="Foto Hazfi Febrianto"
+          onload="this.style.display='block'; document.getElementById('avatar-fallback').style.display='none';"
+          onerror="this.style.display='none'; document.getElementById('avatar-fallback').style.display='flex';"
+          style="display:none;" />
+        <div class="avatar" id="avatar-fallback">
+          <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#0a0a0f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+        </div>
+      </div>
+      <div class="profile-text">
+        <h1 class="name">Hazfi Febrianto</h1>
+        <span class="badge">XI RPL 2</span>
+      </div>
+    </header>
+
+    <section class="info-grid">
+      <div class="info-item">
+        <span class="info-label">NIS</span>
+        <span class="info-value">2425120648</span>
+      </div>
+      <div class="info-item">
+        <span class="info-label">Nama Lengkap</span>
+        <span class="info-value">Hazfi Febrianto</span>
+      </div>
+      <div class="info-item">
+        <span class="info-label">Kelas</span>
+        <span class="info-value">XI RPL 2</span>
+      </div>
+      <div class="info-item">
+        <span class="info-label">Jurusan</span>
+        <span class="info-value">Rekayasa Perangkat Lunak</span>
+      </div>
+      <div class="info-item">
+        <span class="info-label">Sekolah</span>
+        <span class="info-value">SMK Negeri</span>
+      </div>
+      <div class="info-item">
+        <span class="info-label">Instagram</span>
+        <a class="info-link" href="https://instagram.com/hvst.haz23" target="_blank" rel="noopener noreferrer">instagram hazfi</a>
+      </div>
+    </section>
+
+    <footer class="card-footer">
+      <span>✦ Git &amp; GitHub Praktikum</span>
+      <span>2025</span>
+    </footer>
+  </main>
+
+</body>
+</html>
