@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40rem;
+}
+
+.card {
+    padding: 50px;
+    box-shadow: 1px 2px 11px 1px #000000;
+    background-color: #14171a;
+}
+
+img {
+    border-radius: 360%;
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+}
+
+h2, h3 {
+    margin: 10px;
+    color: #e4e4e4;
+}
+
+.bola {
+    display: flex;
+}
+
+p {
+    border-radius: 10px;
+    background-color: rgb(41, 41, 41);
+    border: 1px solid rgb(114, 114, 114);
+    padding: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    color: #e4e4e4;
+}
