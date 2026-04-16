@@ -1,0 +1,73 @@
+/* Reset dasar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Background utama */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #4facfe, #00f2fe);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Card biodata */
+.container {
+    background: white;
+    padding: 30px;
+    border-radius: 20px;
+    width: 320px;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+/* Efek hover */
+.container:hover {
+    transform: scale(1.03);
+}
+
+/* Foto */
+img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #4facfe;
+    margin-bottom: 15px;
+}
+
+/* Nama */
+h1 {
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Text */
+p {
+    font-size: 14px;
+    color: #666;
+    margin: 5px 0;
+}
+
+/* Badge kelas */
+.kelas {
+    display: inline-block;
+    background: #4facfe;
+    color: white;
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+/* Hover animasi text */
+p:hover {
+    color: #4facfe;
+    transition: 0.3s;
+}
