@@ -74,7 +74,7 @@ body {
 
 .teks a.ikuti-button {
     font-family: nexa;
-    display: inline-flex;  /* Pastikan ini ada di sini juga */
+    display: inline-flex; 
     align-items: center;  
     justify-content: center;
     gap: 10px;
