@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #4facfe, #00f2fe);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* CARD DIPERBESAR */
+.card {
+    background: white;
+    width: 420px; /* dari 320px jadi lebih besar */
+    padding: 35px;
+    border-radius: 25px;
+    text-align: center;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+/* FOTO DIPERBESAR */
+.profile img {
+    width: 160px; /* dari 120px */
+    height: 160px;
+    border-radius: 50%;
+    border: 5px solid #4facfe;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+/* JUDUL DIPERBESAR */
+h1 {
+    font-size: 26px;
+    color: #333;
+}
+
+/* KELAS */
+.kelas {
+    font-size: 16px;
+    color: #777;
+    margin-bottom: 20px;
+}
+
+/* INFO */
+.info {
+    margin: 20px 0;
+}
+
+.item h3 {
+    font-size: 18px;
+    color: #4facfe;
+    margin-bottom: 8px;
+}
+
+.item p {
+    font-size: 16px;
+    color: #555;
+}
+
+/* BUTTON DIPERBESAR */
+.btn {
+    margin-top: 20px;
+    padding: 12px 25px;
+    font-size: 16px;
+    border: none;
+    border-radius: 30px;
+    background: #4facfe;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #00c6ff;
+}
