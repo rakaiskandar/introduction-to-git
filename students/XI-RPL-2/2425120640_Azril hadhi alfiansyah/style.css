@@ -1,0 +1,219 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+
+    /* Gradient lebih smooth */
+    background: linear-gradient(-45deg, #66cbea, #764ba2, #5f9cff, #8fd3f4);
+    background-size: 400% 400%;
+
+    /* Animasi gerak */
+    animation: gradientBG 10s ease infinite;
+}
+
+/* Animasi background */
+@keyframes gradientBG {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.right h1 {
+    animation: glow 2s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+    from {
+        text-shadow: 
+            0 0 5px #25F4EE,
+            0 0 10px #25F4EE;
+    }
+    to {
+        text-shadow: 
+            0 0 20px #FE2C55,
+            0 0 40px #FE2C55;
+    }
+}
+/* NAMA, KELAS, HOBI */
+.right h1,
+
+.hobi {
+    font-weight: bold;
+
+    /* gradient warna */
+    background: linear-gradient(45deg, #ffffff, #25F4EE, #FE2C55);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    /* glow effect */
+    text-shadow: 
+        0 0 5px #25F4EE,
+        0 0 10px #25F4EE,
+        0 0 20px #FE2C55,
+        0 0 40px #FE2C55;
+}
+.kelas {
+    font-weight: bold;
+
+    background: linear-gradient(45deg, #ffffff, #25F4EE, #FE2C55);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    text-shadow: 
+        0 0 5px #25F4EE,
+        0 0 10px #25F4EE,
+        0 0 20px #FE2C55,
+        0 0 40px #FE2C55;
+}
+/* Tambahan efek glow bulat */
+body::before,
+body::after {
+    content: "";
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    filter: blur(100px);
+    z-index: 0;
+}
+
+/* Glow kiri */
+body::before {
+    background: #00c6ff;
+    top: 10%;
+    left: 10%;
+}
+
+/* Glow kanan */
+body::after {
+    background: #ff6ec4;
+    bottom: 10%;
+    right: 10%;
+}
+
+/* Biar card tetap di atas */
+.container {
+    position: relative;
+    z-index: 1;
+}/* Bikin card jadi horizontal */
+.card {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+/* Bagian kiri (foto) */
+.left {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+/* Bagian kanan */
+.right {
+    flex: 2;
+    text-align: left;
+}
+
+/* Foto biar tetap cakep */
+.profile-img {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid white;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* CARD */
+.card {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+
+    width: 600px;
+    padding: 30px;
+
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(15px);
+
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+
+    color: white;
+}
+
+/* KIRI */
+.left {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+/* KANAN */
+.right {
+    flex: 2;
+}
+
+/* FOTO */
+.profile-img {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid white;
+}
+
+/* TEXT */
+.right h1 {
+    margin-bottom: 5px;
+}
+
+.kelas {
+    opacity: 0.8;
+    margin-bottom: 15px;
+}
+
+.info p {
+    margin: 6px 0;
+}
+.sosial {
+    margin-top: 15px;
+    display: flex;
+    gap: 10px;
+}
+
+.sosial a {
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 8px;
+    font-size: 13px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+/* Instagram */
+.ig {
+    background: linear-gradient(45deg, #feda75, #d62976, #4f5bd5);
+    color: white;
+}
+
+/* TikTok */
+.tt {
+    background: linear-gradient(45deg, #b7ec3a, #1cf1ea, #1076d4);
+    color: rgb(39, 132, 185);
+}
+
+
