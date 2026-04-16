@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.card {
+    background: #1e1e1e;
+    padding: 30px;
+    width: 280px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+.image-box img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
+h2 {
+    color: #fff;
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.kelas {
+    color: #aaa;
+    font-size: 14px;
+}
+
+.skill {
+    color: #ccc;
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 8px 15px;
+    background: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 13px;
+}
+
+.btn:hover {
+    background: #555;
+}
