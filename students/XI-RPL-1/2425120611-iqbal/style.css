@@ -1,0 +1,58 @@
+/* Mengatur font dasar dan background halaman */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Mengatur kotak biodata (Card) */
+.card {
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    width: 300px;
+    text-align: center;
+}
+
+/* Mengatur foto profil */
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* Membuat foto jadi bulat */
+    object-fit: cover;
+    border: 5px solid #007bff;
+    margin-bottom: 15px;
+}
+
+h1 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #eee;
+    margin-bottom: 20px;
+}
+
+/* Mengatur teks info agar rata kiri */
+.info {
+    text-align: left;
+    line-height: 1.6;
+    color: #555;
+}
+
+.info p {
+    margin: 10px 0;
+}
+
+strong {
+    color: #007bff;
+}
