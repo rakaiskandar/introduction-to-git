@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #85a9df;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.card {
+    background: #ffffff;
+    width: 100%;
+    max-width: 500px; 
+    border-radius: 20px; 
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.profile-header {
+    background: #095dbd;
+    padding: 30px;
+    text-align: center;
+    color: white;
+}
+
+.avatar img {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    border: 5px solid white;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.profile-header h1 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.profile-body {
+    padding: 30px 40px;
+}
+
+.info-item {
+    margin-bottom: 20px;
+    padding-bottom: 12px;
+}
+
+.info-item:last-child {
+    border-bottom: none;
+}
+
+.label {
+    display: block;
+    font-size: 0.95rem;
+    color: #888;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.value {
+    display: block;
+    font-size: 1.3rem;
+    color: #333;
+    margin-top: 5px;
+    font-weight: 500
+}
+
+.footer {
+    padding: 15px;
+    text-align: center;
+    background: #fafafa;
+    color: #aaa;
+    font-size: 0.8rem;
+}
