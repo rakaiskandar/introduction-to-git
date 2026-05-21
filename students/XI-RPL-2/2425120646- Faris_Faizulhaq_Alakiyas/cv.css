@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background: #d9d9d9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+
+
+.hero{
+    width: 850px;
+    background: #0b5d94;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 30px;
+}
+
+
+.hero a{
+    width: 120px;
+    height: 140px;
+    background: url("WhatsApp Image 2026-03-11 at 21.10.19.jpeg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    border: 4px solid white;
+    display: block;
+}
+
+
+.hero h1{
+    font-size: 34px;
+}
+
+.hero p{
+    font-size: 15px;
+    opacity: 0.8;
+}
+
+
+.isinya{
+    width: 850px;
+    background: white;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+}
+
+
+.cdpoint{
+    border-left: 4px solid #0b5d94;
+    padding-left: 15px;
+    line-height: 1.8;
+    color: #333;
+    transition: 0.3s;
+}
+
+.cdpoint:hover{
+    transform: translateY(-3px);
+}
+
+
+.cdpoint h1{
+    color: #0b5d94;
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+
+.cdpoint b{
+    color: #111;
+}
+
+
+.footer {
+    width: 850px;
+    display: flex;
+    background: #0b5d94;
+    color: white;
+    text-align: center;
+    gap: 20px;
+    padding: 30px;
+}
+
+.footer p{
+    opacity: 0.8;
+}
+
+
+@media(max-width:900px){
+
+    .hero,
+    .isinya{
+        width: 100%;
+    }
+
+    .isinya{
+        grid-template-columns: 1fr;
+    }
+
+    .hero{
+        flex-direction: column;
+        text-align: center;
+    }
+}
